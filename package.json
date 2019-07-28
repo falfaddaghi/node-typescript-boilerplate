@@ -1,5 +1,5 @@
 {
-  "name": "node-typescript-boilerplate",
+  "name": "price-calculator-kata",
   "version": "0.0.0",
   "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
   "engines": {
@@ -30,5 +30,6 @@
   "license": "Apache-2.0",
   "dependencies": {
     "tslib": "~1.10.0"
-  }
+  },
+  "keywords": []
 }

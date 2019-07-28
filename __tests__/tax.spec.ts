@@ -19,4 +19,13 @@ describe('Tax Logic', () => {
 
     expect(taxLogic.CalculatePriceAfterTax(p, 0.21)).toBe(24.502499999999998);
   });
+
+  it('Product price reported as $20.25 before tax and $24.30 after 25% tax.', () => {
+    let p = new Product();
+    p.Name = 'foo';
+    p.Price = 20.25;
+    p.UPS = '1234';
+
+    expect(taxLogic.CalculatePriceAfterTax(p, 0.25)).toBe(24.502499999999998);
+  });
 });
